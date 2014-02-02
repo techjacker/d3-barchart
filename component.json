@@ -1,0 +1,21 @@
+{
+  "name": "d3-barchart",
+  "version": "0.0.1",
+  "description": "Base d3 barchart class",
+  "dependencies": {
+    "mbostock/d3": "time-bst",
+    "techjacker/d3base": "*",
+    "techjacker/mitsubishi": "2.4.0",
+    "techjacker/extasy": "*"
+  },
+  "main": "lib/main.js",
+  "scripts": [
+    "lib/main.js",
+    "lib/setup.js",
+    "lib/data.js",
+    "lib/draw.js"
+  ],
+  "styles": [
+    "css/barchart.css"
+  ]
+}

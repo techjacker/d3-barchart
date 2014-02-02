@@ -1,0 +1,57 @@
+# <!-- @echo name -->
+
+<!-- @echo description -->
+
+
+### Install
+
+#### Node
+
+```Shell
+npm install <!-- @echo name -->
+```
+
+#### Browser
+
+```Shell
+component install <!-- @echo name -->
+```
+
+```Shell
+bower install <!-- @echo name -->
+```
+
+
+## Usage
+
+#### <!-- @echo name -->(opts)
+
+```JavaScript
+GreatBarChart = d3-barchart({
+
+	// mandatory
+	el:'#containerDiv',
+	xDataKey:"year",
+	yDataKey:"Prevalence Per 1,000 Animals",
+
+	// optional
+	centerGraph:true,
+	gradient:true,
+	fill:true,
+	lineColor: 'red'
+});
+```
+
+GreatBarChart.draw()
+
+
+### Options
+
+
+
+
+### Docs
+[Yuidocs documentation here](docs/index.html)
+- fire up the connect server ```$ grunt docs```
+- navigate your browser to the [docs](http://localhost:9001)
+

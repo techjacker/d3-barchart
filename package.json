@@ -1,0 +1,49 @@
+{
+  "name": "d3-barchart",
+  "version": "0.0.1",
+  "description": "Base d3 barchart class",
+  "author": {
+    "name": "Andrew Griffiths",
+    "email": "mail@andrewgriffithsonline.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:techjacker/d3-barchart.git"
+  },
+  "engines": [
+    "node >= 0.4.0"
+  ],
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "make test",
+    "testem": "testem -l phantomjs",
+    "docs": "yuidoc -o ./docs ./lib",
+    "autotest": "nodemon -x npm test",
+    "autodocs": "nodemon -x npm run-script docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "expect.js": "~0.2.0",
+    "grunt": "~0.4.1",
+    "grunt-saucelabs": "~4.0.4",
+    "grunt-preprocess": "~2.3.0",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-yuidoc": "~0.4.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "component": "~0.17.0",
+    "jshint": "~2.1.4",
+    "uglify-js": "~2.3.6",
+    "grunt-contrib-clean": "~0.5.0",
+    "serve": "~1.3.0",
+    "component-html": "0.0.3",
+    "component-string": "~0.1.2",
+    "component-json": "~0.1.4",
+    "csvtojson": "~0.1.4",
+    "json": "0.0.13",
+    "grunt-notify": "~0.2.7",
+    "component-hogan": "0.0.1"
+  }
+}

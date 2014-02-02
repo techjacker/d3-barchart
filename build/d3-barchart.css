@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: MIT
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.basegraph-maingroup .area {
+	stroke-width: 0;
+}
+
+.basegraph-maingroup .area {
+	/*fill: lightsteelblue;*/
+	fill-opacity: .1;
+}
+/*--------------------------------------
+Graph Title
+---------------------------------------*/
+.basegraph-maingroup .graph-title {
+	font-size: 1em;
+	visibility: hidden;
+}
+
+/*--------------------------------------
+Y Axis Label
+---------------------------------------*/
+.basegraph-maingroup .axis-label-y {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.basegraph-maingroup .axis-label {
+	text-anchor:middle;
+	text-transform: capitalize;
+	font-size:0.8em;
+	font-weight:bold;
+}
+
+/*--------------------------------------
+Inset Y Axis
+---------------------------------------*/
+.basegraph-maingroup  text.inset-y {
+	visibility:hidden;
+	font-size:0.8em;
+	text-anchor: end;
+	font-weight:normal;
+}
+
+/*--------------------------------------
+Media Queries
+---------------------------------------*/
+@media only screen and (min-width: 500px) {
+
+	.basegraph-maingroup  text.inset-y {
+		visibility:inherit;
+	}
+}
+
+/*--------------------------------------
+Big Outset Labels
+---------------------------------------*/
+@media only screen and (min-width: 450px) {
+
+	.basegraph-maingroup .axis-label {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width: 540px) {
+
+	.basegraph-maingroup .graph-title {
+		visibility: inherit;
+	}
+}
+
+
+@media only screen and (min-width: 550px) {
+
+	.basegraph-maingroup .graph-title, .basegraph-maingroup .axis-label {
+		font-size: 1.1em;
+	}
+}
+
+
+
+@media only screen and (min-width: 950px) {
+	.basegraph-maingroup .graph-title, .basegraph-maingroup .axis-label {
+		font-size: 1.15em;
+	}
+}
+
+
+@media only screen and (min-width: 1100px) {
+
+	.basegraph-maingroup .axis-label {
+		font-size:1.4em;
+	}
+}
+.basegraph-maingroup .axis path, .basegraph-maingroup .axis line {
+	stroke: grey;
+	fill: none;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
+
+.basegraph-maingroup .x path {
+	stroke-width: 0;
+}
+.d3-graph {
+}
+
+.basegraph-container {
+	margin-top: 20px; 
+}
+
+.basegraph {
+	border: 1px solid #DEDEDE;
+	padding-bottom: 10px;
+	/*background-color: #F0F4F5;*/
+	/*fill:#333;*/ /* off black > same as body text */
+}
+
+.basegraph-maingroup line {
+	/*shape-rendering: crispEdges;*/
+}
+.basegraph-maingroup .grid {
+/*	stroke: #aaa;
+	stroke-dasharray: 1,3;*/
+	/*stroke-width: 0.7;*/
+	stroke-width: 2;
+}
+
+
+.basegraph-maingroup .grid line {
+	stroke: #fff;
+	stroke-dasharray: 2, 2;
+	shape-rendering: crispEdges;
+}
+.basegraph-maingroup .line {
+	stroke: steelblue;
+}
+
+.basegraph-maingroup .line {
+	stroke-width: 2.5px;
+	fill: none;
+}
+
+
+.barchart .bar {
+	/*fill: steelblue;*/
+}
