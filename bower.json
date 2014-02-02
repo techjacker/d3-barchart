@@ -1,0 +1,20 @@
+{
+  "name": "d3-barchart",
+  "version": "0.0.1",
+  "description": "Lightweight d3 barchart class",
+  "main": "build/d3-barchart.js",
+  "licenses": [{"type": "MIT"}],
+  "author": {
+    "name": "Andrew Griffiths",
+    "email": "mail@andrewgriffithsonline.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:techjacker/d3base.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "visionmedia/mocha": "*",
+    "techjacker/expect.js": "*"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules
+public
+components
+components-private
+bower_components
+
+temp.js
+*.sublime*
+*.log*

@@ -1,0 +1,13 @@
+{
+    "project": {
+        "name": "d3-barchart",
+        "description": "Base d3 barchart class",
+        "version": "0.0.1",
+        "url": "git@github.com:techjacker/d3-barchart.git"
+    },
+    "files": {},
+    "modules": {},
+    "classes": {},
+    "classitems": [],
+    "warnings": []
+}
